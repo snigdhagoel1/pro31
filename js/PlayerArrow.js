@@ -9,7 +9,7 @@ class PlayerArrow {
     this.width = width;
     this.height = height;
     this.body = Bodies.rectangle(x, y, this.width, this.height, options);
-    this.image = loadImage(".//arrow.png");
+    this.image = loadImage("./assets/arrow.png");
     //write a code for defining an array named trajectory
     this.trajectory = [];
     
